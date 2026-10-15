@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Crear una tabla" content="Tabla">
+    <meta name="Javi" content="Javi">
+    <title>Creacion de tabla </title>
+</head>
+<body>
+    
+    <h1><b>Crear una tabla</b></h1>
+    <br></br>
+
+    <table border="1">
+    <caption><b>Horario de la semana</b></caption>
+
+    <colgroup>
+        <col span="5">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th>Tramo</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <th>8:15</th>
+            <td rowspan="2" class="center">ADA</td>
+            <td rowspan="2" class="center">SIMR</td>
+            <td rowspan="3" class="center">PLE</td>
+            <td rowspan="3" class="center">PLE</td>
+            <td rowspan="2" class="center">ADA</td>
+        </tr>
+
+        <tr>
+            <th>9:15</th>
+        </tr>
+
+        <tr>
+            <th>10:15</th>
+            <td class="center">PLE</td>
+            <td class="center">ADA</td>
+            <td>PLE</td>
+        </tr>
+
+        <th>11:15</th>
+            <td colspan="5" class="center">RECLEO</td>
+        
+        <tr>
+            <th>11:45</th>
+            <td rowspan="3" class="center">SIMR</td>
+            <td class="center">ADA</td>
+            <td rowspan="2" class="center">ADA</td>
+            <td rowspan="3" class="center">ADA</td>
+            <td class="center">PLE</td>
+        </tr>
+
+        <tr>
+            <th>12:45</th>
+            <td rowspan="2" class="center">PLE</td>
+            <td rowspan="2" class="center">SIMR</td>
+        </tr>
+
+        <tr>
+            <th>13:45</th>
+            <td>IUA</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="6" class="center">Curso 2026/2027</td>
+        </tr>
+    </tfoot>
+    </table>
+
+</body>
+</html>
